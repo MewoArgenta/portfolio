@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.box {
+	min-height: 50px;
+}
+
+/* the box for the logo, that comes in the header */
+.logo .first_column_header {
+	width: 30%;
+	order:-1;
+	background-image: url("images/backgroundcolor.png");
+}
+
+.second_column_header {
+	width: 70%
+}
+
+/* header */
+header {
+	width: 100%;
+	order:1;
+	text-align: right;
+	color: white;
+	background-image: url("images/backgroundcolor.png");
+	font-family: "Times New Roman";
+	display: flex;
+}
+
+/* the image of the logo */
+.logo_image {
+	height: 80px;
+	width: auto;
+	padding:20px;
+}
+
+/* first part of the page (under header) */
+.first_block {
+	width: 100%;
+	order: 2;
+}
+
+/* second part of the page (under header) */
+.second_block {
+	width: 100%;
+	order: 4;
+	padding: 10px;
+}
+
+/* third part of the page (under header) */
+.third_block {
+	width: 100%;
+	order: 5;
+	text-align: center;
+}
+
+.css_html,
+.js,
+.xml,
+.java,
+.itil,
+.scrum {
+	height: 120px;
+	width: 120px;
+	padding: 10px;
+	display: inline-block;
+}
+
+/* fourth and last part of the page (under header, above footer) */
+.fourth_block {
+	width: 100%;
+	order: 6;
+	text-align: center;
+}
+
+/* footer */
+footer {
+	width: 100%;
+	order: 7;
+	background-image: url("images/backgroundcolor.png");
+}
+
+
+
+h3 {
+	text-transform: uppercase;
+	padding-right: 10px;
+}
+
+h1 {
+	margin:0;
+	padding-right: 10px;
+}
+
+.my_picture {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+.picture_smartphone {
+	height: 190px;
+	width: 85px;
+	padding: 10px;
+}
+
+.contact_email,
+.contact_telephone {
+	color: white;
+	padding: 10px;
+	padding-left: 50px;
+}
+
